@@ -1,6 +1,6 @@
 //Curso Udemy - 
 /*
-Aprenda e Domine Uma Das Mais Populares Linguagens de programação: “A Linguagem C”
+Linguagens de programaÃ§Ã£o: â€œA Linguagem Câ€
 Prof Antonio Henrique Reis
 */
 
@@ -9,11 +9,11 @@ Prof Antonio Henrique Reis
 
 int main ()
 {
- // seção 4 variáveis
+ // seÃ§Ã£o 4 variÃ¡veis
  
 
  /*
- int numero; //declaração de váriaveis.
+ int numero; //declaraÃ§Ã£o de vÃ¡riaveis.
  float nota1, nota2, nota3, media;
  char letra;
  
@@ -26,7 +26,7 @@ int main ()
  printf("O novo valor da variavel numero: %d\n", numero); 
  */
  
- //iniciando váriaveis
+ //iniciando vÃ¡riaveis
  
     int numero = 46;
     float valor = 8.37;
@@ -37,8 +37,8 @@ int main ()
  
     printf("Variavel numero...: %d \n", numero);
     printf("Variavel numero...: %f \n", valor);
-    printf("Variavel numero...: %10.2f \n", valor); // 10 numeros de espaço antes de começar e dois de limite aós o ponto 
-    printf("Variavel numero...: %.2f \n", valor); // teste de float .2 somente dois numeros apareceram após o ponto.
+    printf("Variavel numero...: %10.2f \n", valor); // 10 numeros de espaÃ§o antes de comeÃ§ar e dois de limite aÃ³s o ponto 
+    printf("Variavel numero...: %.2f \n", valor); // teste de float .2 somente dois numeros apareceram apÃ³s o ponto.
     printf("Variavel numero...: %c \n", letra); //char
     printf("%d %d %d \n", valor1, valor2, valor3);
  
