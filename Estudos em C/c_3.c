@@ -26,6 +26,7 @@ int main() {
 	printf("O volume do pararelepido foi: %.2f\n ", volume);
 	*/
 
+    /*
 	int valorA, valorB, soma; //declaracao da variaveis
 
 	printf ("Digite um numero inteiro: ");
@@ -39,6 +40,10 @@ int main() {
 	//saida de dados
 	printf("A soma foi: %d \n",soma);
 	printf("%d + %d = %d \n",valorA, valorB, soma);
-
+   */
+   
+   
+   
+   
 	return 0 ;
 }
