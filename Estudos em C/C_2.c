@@ -1,6 +1,6 @@
 //Curso Udemy - 
 /*
-Linguagens de programacao: area Linguagem C
+Aprenda e Domine Uma Das Mais Populares Linguagens de programacao: �A Linguagem C�
 Prof Antonio Henrique Reis
 */
 
@@ -9,11 +9,11 @@ Prof Antonio Henrique Reis
 
 int main ()
 {
- // seção 4 variaveis
+ // secao 4 variaveis
  
 
  
- int numero; //declaração de váriaveis.
+ int numero; //declaracao de variaveis.
  float nota1, nota2, nota3, media;
  char letra;
  
@@ -26,7 +26,7 @@ int main ()
  printf("O novo valor da variavel numero: %d\n", numero); 
  
  
- //iniciando váriaveis
+ //iniciando variaveis
  
  
     int numero1 = 46;
@@ -39,7 +39,7 @@ int main ()
     printf("Variavel numero...: %d \n", numero1);
     printf("Variavel numero...: %f \n", valor);
     printf("Variavel numero...: %10.2f \n", valor); // 10 numeros de espaco antes de comecar e dois de limite antes do ponto 
-    printf("Variavel numero...: %.2f \n", valor); // teste de float .2 somente dois numeros apareceram apÃ³s o ponto.
+    printf("Variavel numero...: %.2f \n", valor); // teste de float .2 somente dois numeros apareceram apos o ponto.
     printf("Variavel numero...: %c \n", letra); //char
     printf("%d %d %d \n", valor1, valor2, valor3);
  
@@ -51,7 +51,7 @@ int main ()
  QuiloI = 200000;
  QuiloF = 207349;
  
- Quilometragem = QuiloF - QuiloI; // diferença
+ Quilometragem = QuiloF - QuiloI; // difererenca
  
  printf("A quilometragem do automovel ...: %d \n",Quilometragem); 
  

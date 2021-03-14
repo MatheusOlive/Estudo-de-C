@@ -1,6 +1,6 @@
 //Curso Udemy - 
 /*
-Aprenda e Domine Uma Das Mais Populares Linguagens de programação: “A Linguagem C”
+Aprenda e Domine Uma Das Mais Populares Linguagens de programacao: “A Linguagem C”
 Prof Antonio Henrique Reis
 */
 
