@@ -9,32 +9,30 @@ Prof Antonio Henrique Reis
 
 int main ()
 {
- // secao 4 variaveis
- 
+// secao 4 variaveis
 
+
+//declaracao de variaveis.
+int numero; 
+float nota1, nota2, nota3, media;
+char letra;
  
- int numero; //declaracao de variaveis.
- float nota1, nota2, nota3, media;
- char letra;
+numero = 39;
  
- numero = 39;
+printf("O valor da variavel numero: %d\n", numero);
  
- printf("O valor da variavel numero: %d\n", numero);
+numero = numero + 10;
  
- numero = numero + 10;
- 
- printf("O novo valor da variavel numero: %d\n", numero); 
- 
- 
- //iniciando variaveis
+printf("O novo valor da variavel numero: %d\n", numero); 
  
  
-    int numero1 = 46;
-    float valor = 8.37;
-    char letra = 'X';
-    int valor1, valor2, valor3;
+//iniciando variaveis
+int numero1 = 46;
+float valor = 8.37;
+char letra = 'X';
+int valor1, valor2, valor3;
  
-    valor1 = valor2 = valor3 = 0;
+valor1 = valor2 = valor3 = 0;
  
     printf("Variavel numero...: %d \n", numero1);
     printf("Variavel numero...: %f \n", valor);
@@ -78,14 +76,12 @@ int main ()
  
  float raio, altura, volume;
 
- raio = 10;
- altura = 5;
- volume = 3.14459*raio*raio*altura;
- printf("O Volume..: %.2f",volume);
+raio = 10;
+altura = 5;
+volume = 3.14459*raio*raio*altura;
+printf("O Volume..: %.2f",volume);
  
  
- return 0 ;
-
-
+return 0 ;
 }
 
