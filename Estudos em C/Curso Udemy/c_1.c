@@ -11,7 +11,7 @@ int main ()
 {
 	
 	printf("Brasil\n");
-	Exercicio 1
+	//Exercicio 1
 	printf("Matheus\n");
 	printf("Maria\n");
 	printf("Nicacia\n");
