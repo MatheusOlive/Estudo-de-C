@@ -13,6 +13,7 @@ int main ()
 
 
 //declaracao de variaveis.
+/*
 int numero; 
 float nota1, nota2, nota3, media;
 char letra;
@@ -24,26 +25,28 @@ printf("O valor da variavel numero: %d\n", numero);
 numero = numero + 10;
  
 printf("O novo valor da variavel numero: %d\n", numero); 
- 
+*/ 
  
 //iniciando variaveis
-int numero1 = 46;
+
+/*int numero1 = 46;
 float valor = 8.37;
 char letra = 'X';
 int valor1, valor2, valor3;
  
 valor1 = valor2 = valor3 = 0;
  
-    printf("Variavel numero...: %d \n", numero1);
-    printf("Variavel numero...: %f \n", valor);
-    printf("Variavel numero...: %10.2f \n", valor); // 10 numeros de espaco antes de comecar e dois de limite antes do ponto 
-    printf("Variavel numero...: %.2f \n", valor); // teste de float .2 somente dois numeros apareceram apos o ponto.
-    printf("Variavel numero...: %c \n", letra); //char
-    printf("%d %d %d \n", valor1, valor2, valor3);
+ printf("Variavel numero...: %d \n", numero1);
+ printf("Variavel numero...: %f \n", valor);
+ printf("Variavel numero...: %10.2f \n", valor); // 10 numeros de espaco antes de comecar e dois de limite antes do ponto 
+ printf("Variavel numero...: %.2f \n", valor); // teste de float .2 somente dois numeros apareceram apos o ponto.
+ printf("Variavel numero...: %c \n", letra); //char
+ printf("%d %d %d \n", valor1, valor2, valor3);
+*/ 
  
+// execicicio 005
  
- // execicicio 005
- 
+/*
  int Quilometragem, QuiloI, QuiloF;
  
  QuiloI = 200000;
@@ -52,10 +55,10 @@ valor1 = valor2 = valor3 = 0;
  Quilometragem = QuiloF - QuiloI; // difererenca
  
  printf("A quilometragem do automovel ...: %d \n",Quilometragem); 
+*/
  
- 
- //exercicio 006
- 
+//exercicio 006
+/* 
  float nota1, nota2, nota3;
  float media;
  
@@ -68,20 +71,18 @@ valor1 = valor2 = valor3 = 0;
  media = (nota1+ nota2 + nota3)/3;
  
  printf("\t\ A media do aluno..: %1.2f \n", media);
- 
- 
- 
- 
- //exercicio 007
- 
+*/
+
+//exercicio 007
+/*
  float raio, altura, volume;
 
 raio = 10;
 altura = 5;
 volume = 3.14459*raio*raio*altura;
 printf("O Volume..: %.2f",volume);
- 
+*/ 
  
 return 0 ;
-}
 
+}

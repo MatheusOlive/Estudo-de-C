@@ -36,7 +36,6 @@ int main ()
 	
 	
 	// Execício 4
-	
 	printf("Meu \"querido amigo\" mudou-se!\n");
 		
 	system("Pause");
