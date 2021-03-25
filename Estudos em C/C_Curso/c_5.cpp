@@ -253,91 +253,91 @@ int main ()
 	    scanf("%d", &codigo);
 	
 	//Tratamento das opções do menu
-	       switch (codigo)
-	        {      
-	            case 0:
-	            printf("Encerrando o programa \n");
-				break;
-				case 1:
-				printf("Incluindo uma panela no estoque \n");
-				contPan++;
-				break;
-				case 2:
-				printf("Incluindo uma chaleira no estoque \n");
-				contCha++;
-				break;
-				case 3:
-				printf("Incluindo uma vassoura no estoque \n");
-				contVas++;
-				break;
-				case 4:
-				printf("Relatorio de inclusoes \n");
-				printf("%d Panelas no estoque \n", contPan);
-				printf("%d Chaleiras no estoque \n", contCha);
-				printf("%d Vassouras no estoque \n", contVas);
-				break;
-				default:
-				printf("Opcao invalida \n");
-				break;
-           	}
+    switch (codigo)
+   {      
+        case 0:
+        printf("Encerrando o programa \n");
+		break;
+		case 1:
+		printf("Incluindo uma panela no estoque \n");
+		contPan++;
+		break;
+		case 2:
+		printf("Incluindo uma chaleira no estoque \n");
+		contCha++;
+		break;
+		case 3:
+		printf("Incluindo uma vassoura no estoque \n");
+		contVas++;
+		break;
+		case 4:
+		printf("Relatorio de inclusoes \n");
+		printf("%d Panelas no estoque \n", contPan);
+		printf("%d Chaleiras no estoque \n", contCha);
+		printf("%d Vassouras no estoque \n", contVas);
+		break;
+		default:
+		printf("Opcao invalida \n");
+		break;
+   	}
 	    
-		  system("pause");
-	    
-		} while (codigo != 0);
+	  system("pause");
+    
+	} while (codigo != 0);
 
 // Exercicio 035
 	int codigo, totEnt, totSai, disponivel;
 	totEnt = totSai = disponivel = 0;
 	do 
 	{
-		system("cls");
-		printf("Menu de opcoes \n");
-		printf("0 - Encerrar o programa \n");
-		printf("1 - Incluir uma unidade no estoque \n");
-		printf("2 - Excluir uma unidade no estoque \n");
-		printf("3 - Mostrar o disponivel no estoque \n");
-		printf("4 - Mostrar o total de entradas no estoque \n");
-		printf("5 - Mostrar o total de saidas no estoque \n");
-		printf("Escolha uma opcao: ");
-		scanf_s("%d", &codigo);
-		switch (codigo)
-			{
-				case 0:
-				printf("Encerrando o programa \n");
-				break;
-				case 1:
-				printf("Incluindo uma unidade no estoque \n");
-				totEnt++;
-				disponivel++;
-				break;
-				case 2:
-				if (disponivel == 0)
-				{
-				printf("Nao pode excluir porque o estoque esta vazio \n");
-				}
-				else
-				{
-				printf("Excluindo uma unidade no estoque \n");
-				totSai++;
-				disponivel--;
-				}
-				break;
-				case 3:
-				printf("Mostrando o disponivel no estoque \n");
-				printf("Disponivel no estoque: %d \n", disponivel);
-				break;
-				case 4:
-				printf("Mostrando o total de entradas no estoque \n");
-				printf("Total de entradas no estoque: %d \n", totEnt);
-				break;
-				case 5:
-				printf("Mostranto o total de saidas no estoque \n");
-				printf("Total de saidas no estoque: %d \n", totSai);
-				break;
-				default:
-				printf("Escolheu uma opcao invalida \n");
-				break;
-			}		
+	system("cls");
+	printf("Menu de opcoes \n");
+	printf("0 - Encerrar o programa \n");
+	printf("1 - Incluir uma unidade no estoque \n");
+	printf("2 - Excluir uma unidade no estoque \n");
+	printf("3 - Mostrar o disponivel no estoque \n");
+	printf("4 - Mostrar o total de entradas no estoque \n");
+	printf("5 - Mostrar o total de saidas no estoque \n");
+	printf("Escolha uma opcao: ");
+	scanf_s("%d", &codigo);
+	switch (codigo)
+	{
+		case 0:
+		printf("Encerrando o programa \n");
+		break;
+		case 1:
+		printf("Incluindo uma unidade no estoque \n");
+		totEnt++;
+		disponivel++;
+		break;
+		case 2:
+		if (disponivel == 0)
+		{
+		printf("Nao pode excluir porque o estoque esta vazio \n");
+		}
+		else
+		{
+		printf("Excluindo uma unidade no estoque \n");
+		totSai++;
+		disponivel--;
+		}
+		break;
+		case 3:
+		printf("Mostrando o disponivel no estoque \n");
+		printf("Disponivel no estoque: %d \n", disponivel);
+		break;
+		case 4:
+		printf("Mostrando o total de entradas no estoque \n");
+		printf("Total de entradas no estoque: %d \n", totEnt);
+		break;
+		case 5:
+		printf("Mostranto o total de saidas no estoque \n");
+		printf("Total de saidas no estoque: %d \n", totSai);
+		break;
+		default:
+		printf("Escolheu uma opcao invalida \n");
+		break;
+	}		
 		system("pause");
 	} while (codigo != 0);
 
@@ -348,61 +348,61 @@ int main ()
 	totEnt = totSai = 0;
 	do 
 	{
-		system("cls");
-		printf("Menu de opcoes \n");
-		printf("0 - Encerrar o programa \n");
-		printf("1 - Entrando uma pessoa no restaurante \n");
-		printf("2 - Saindo uma pessoa do restaurante \n");
-		printf("3 - Mostrando vagas disponiveis no restaurante \n");
-		printf("4 - Mostrando o total de pessoas que entraram no restaurante \n");
-		printf("5 - Mostranto o total de pessoas que sairam do restarante \n");
-		printf("Escolha uma opcao: ");
-		scanf_s("%d", &codigo);
-		switch (codigo)
-			{			
-				case 0:
-				printf("Encerrando o programa \n");
-				break;
-				case 1: //entrando uma pessoa
-				if (disponivel > 0)
-				{
-				printf("Entrando uma pessoa no restaurante \n");
-				totEnt++;
-				disponivel--;
-				}
-				else
-				{
-				printf("Aguarde, Restaurante esta lotado \n");
-				}
-				break;
-				case 2: //saindo uma pessoa
-				if (disponivel == 40)
-				{
-				printf("Restaurante esta vazio \n");
-				}
-				else
-				{
-				printf("Saindo uma pessoa do restaurante \n");
-				disponivel++;
-				totSai++;
-				}
-				break;
-				case 3:
-				printf("Existem %d vagas disponiveis \n", disponivel);
-				break;
-				case 4:
-				printf("Entraram %d pessoas no restaurante \n", totEnt);
-				break;
-				case 5:
-				printf("Sairam %d pessoas do restaurante \n", totSai);
-				break;
-				default:
-				printf("Opcao invalida \n");
-				break;
-			}
+	system("cls");
+	printf("Menu de opcoes \n");
+	printf("0 - Encerrar o programa \n");
+	printf("1 - Entrando uma pessoa no restaurante \n");
+	printf("2 - Saindo uma pessoa do restaurante \n");
+	printf("3 - Mostrando vagas disponiveis no restaurante \n");
+	printf("4 - Mostrando o total de pessoas que entraram no restaurante \n");
+	printf("5 - Mostranto o total de pessoas que sairam do restarante \n");
+	printf("Escolha uma opcao: ");
+	scanf_s("%d", &codigo);
+	switch (codigo)
+	{			
+	case 0:
+	printf("Encerrando o programa \n");
+	break;
+	case 1: //entrando uma pessoa
+	if (disponivel > 0)
+	{
+	printf("Entrando uma pessoa no restaurante \n");
+	totEnt++;
+	disponivel--;
+	}
+	else
+	{
+	printf("Aguarde, Restaurante esta lotado \n");
+	}
+	break;
+	case 2: //saindo uma pessoa
+	if (disponivel == 40)
+	{
+	printf("Restaurante esta vazio \n");
+	}
+	else
+	{
+	printf("Saindo uma pessoa do restaurante \n");
+	disponivel++;
+	totSai++;
+	}
+	break;
+	case 3:
+	printf("Existem %d vagas disponiveis \n", disponivel);
+	break;
+	case 4:
+	printf("Entraram %d pessoas no restaurante \n", totEnt);
+	break;
+	case 5:
+	printf("Sairam %d pessoas do restaurante \n", totSai);
+	break;
+	default:
+	printf("Opcao invalida \n");
+	break;
+	}
 		system("pause");
 	} while (codigo != 0);
-   
+
 	return 0; 	
 	
 }
